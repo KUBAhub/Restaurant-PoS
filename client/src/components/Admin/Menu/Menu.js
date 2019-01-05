@@ -114,6 +114,54 @@ class Menu extends Component {
                                                         value="special"
                                                         > Special
                                                     </option>
+                                                    <option
+                                                        value="soups"
+                                                        > Soups
+                                                    </option>
+                                                    <option
+                                                        value="salad"
+                                                        > Salad
+                                                    </option>
+                                                    <option
+                                                        value="burgers"
+                                                        > Burgers
+                                                    </option>
+                                                    <option
+                                                        value="sandwiches"
+                                                        > Sandwiches
+                                                    </option>
+                                                    <option
+                                                        value="pizza"
+                                                        > Pizza
+                                                    </option>
+                                                    <option
+                                                        value="sideorders"
+                                                        > Side orders
+                                                    </option>
+                                                    <option
+                                                        value="steakhouse"
+                                                        > Steak House
+                                                    </option>
+                                                    <option
+                                                        value="grillchicken"
+                                                        > Grill Chicken
+                                                    </option>
+                                                    <option
+                                                        value="fajitas"
+                                                        > Fajitas
+                                                    </option>
+                                                    <option
+                                                        value="sizzlingfish"
+                                                        > Sizzling Fish
+                                                    </option>
+                                                    <option
+                                                        value="seafoods"
+                                                        > Sea foods
+                                                    </option>
+                                                    <option
+                                                        value="pastalove"
+                                                        > Pasta love
+                                                    </option>
                                                 </FormControl>
                                             </td>
                                         </tr>

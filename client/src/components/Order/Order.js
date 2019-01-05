@@ -85,6 +85,28 @@ class Order extends Component {
                                     <h2 onClick={(event) => this.onItemClick(event)} id={"dessert"}>    Dessert    </h2>
                                     <h2 onClick={(event) => this.onItemClick(event)} id={"special"}>    Specials   </h2>
                                     <h2 onClick={(event) => this.onItemClick(event)} id={"soup"}>    Soup   </h2>
+                                    <h2 onClick={(event) => this.onItemClick(event)} id={"salad"}> Salad
+                                    </h2>
+                                    <h2 onClick={(event) => this.onItemClick(event)} id={"burgers"}> Burgers
+                                    </h2>
+                                    <h2 onClick={(event) => this.onItemClick(event)} id={"sandwiches"}> Sandwiches
+                                    </h2>
+                                    <h2 onClick={(event) => this.onItemClick(event)} id={"pizza"}> Pizza
+                                    </h2>
+                                    <h2 onClick={(event) => this.onItemClick(event)} id={"sideorders"}> Side orders
+                                    </h2>
+                                    <h2 onClick={(event) => this.onItemClick(event)} id={"steakhouse"}> Steak House
+                                    </h2>
+                                    <h2 onClick={(event) => this.onItemClick(event)} id={"grillchicken"}> Grill Chicken
+                                    </h2>
+                                    <h2 onClick={(event) => this.onItemClick(event)} id={"fajitas"}> Fajitas
+                                    </h2>
+                                    <h2 onClick={(event) => this.onItemClick(event)} id={"sizzlingfish"}> Sizzling Fish
+                                    </h2>
+                                    <h2 onClick={(event) => this.onItemClick(event)} id={"seafoods"}> Sea foods
+                                    </h2>
+                                    <h2 onClick={(event) => this.onItemClick(event)} id={"pastalove"}> Pasta love
+                                    </h2>
                                 </Well>
                             </Panel>
                         </Col>
