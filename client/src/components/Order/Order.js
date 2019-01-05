@@ -84,6 +84,7 @@ class Order extends Component {
                                     <h2 onClick={(event) => this.onItemClick(event)} id={"entree"}>     Entree     </h2>
                                     <h2 onClick={(event) => this.onItemClick(event)} id={"dessert"}>    Dessert    </h2>
                                     <h2 onClick={(event) => this.onItemClick(event)} id={"special"}>    Specials   </h2>
+                                    <h2 onClick={(event) => this.onItemClick(event)} id={"soup"}>    Soup   </h2>
                                 </Well>
                             </Panel>
                         </Col>
