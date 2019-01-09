@@ -40,15 +40,13 @@ const print = props => {
         <div>
             <Row>
 
-                <Col 
-                md={3}>
+                <Col style={align} md={3}>
                     <h3>Item</h3>
                 </Col>
-                <Col 
-                md={3}>
+                <Col md={3}>
                     <h3>#</h3>
                 </Col>
-                <Col 
+                <Col style={align}
                 md={3}>
                     <h3>Cost</h3>
                 </Col>  
@@ -56,22 +54,9 @@ const print = props => {
                 {createReceipt(props.table.bill.items)}
             <Row>
                 <Col mdOffset={4}  md={5} style={align}>
-                    <h4>Sub-Total: ${parseFloat(props.table.bill.total).toFixed(2)}</h4>
+                    <h4>Total: PRs{parseFloat(props.table.bill.total).toFixed(2)}</h4>
                 </Col>
             </Row>
-            <Row>
-                <Col mdOffset={4} md={5} style={align}>
-                    <h4>Tax: ${(parseFloat(props.table.bill.total) * 0.07).toFixed(2)}</h4>
-                </Col>
-            </Row>
-            <Row>
-                <Col mdOffset={4} md={5} style={align}>
-                    <h4>Total: ${(parseFloat(props.table.bill.total) * 1.07).toFixed(2)}</h4>
-                </Col>
-                
-            </Row>
-
-
         </div>
     )
 }

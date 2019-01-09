@@ -11,7 +11,7 @@ const table = props => {
                 <Grid>
                     <Jumbotron 
                     className="text-center dinerTitle">
-                        <h1> Mel's Diner </h1>
+                        <h1> Adelante Steak House </h1>
                         <h2> Select a table to perform functions </h2>
                     </Jumbotron>
                     <Row>
@@ -38,12 +38,6 @@ const table = props => {
                                             <Aux>
                                                 <p 
                                                 className="text-center"> Guests: {table.guestNumber} 
-                                                </p>
-                                                <p 
-                                                className="text-center"> Server: {table.server} 
-                                                </p>
-                                                <p 
-                                                className="text-center"> Receipt ID: {table.bill.id} 
                                                 </p>
                                                 {/* conditional render for the total */}
                                                 { table.bill.total ? (<p 

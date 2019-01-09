@@ -55,6 +55,7 @@ const occupied = props => {
                     <Modal.Title>{props.table.name}</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>Guests: {props.table.guestNumber} </Modal.Body>
+                <Print table={props.table} />
                 {occupiedRenderPage}
                 <Modal.Footer>
                     <Button 
